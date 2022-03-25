@@ -10,8 +10,8 @@ const NotFound = () => {
             //router.go(-1)
             router.push('/');
         }, 3000)
-    }, [])
-
+    })
+//}, []) ---> empty dependency array to fire this once and not again if any state changes
 
     return ( 
         <div className="not-found">

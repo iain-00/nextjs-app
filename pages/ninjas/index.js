@@ -16,7 +16,7 @@ const Ninjas = ({ ninjas }) => {
     return (  
         <>
             <Head>
-            <title>Ninja List | List</title>
+            <title>Ninja List - List</title>
             <meta name="keywords" content="ninjas"/>
             </Head>
             <div>
